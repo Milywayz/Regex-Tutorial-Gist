@@ -1,10 +1,11 @@
-# 
+# Regex Tutorial Gist
 
-
+This gist will be all about better understanding what a Regex is and the purpose of a Regex. I will talk about a specific Regex that I will find useful to know about for future use and hopefully you as well.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will be explaining a "Matching an Email" Regex, which will include a better understanding of each component of the Regex and what use you can have with it.
+Matching an Email Regex code looks like this: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
