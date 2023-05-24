@@ -33,6 +33,10 @@ The {2, 6} is that [a-z\.] can only between 2-6 characters long for that last pa
 
 ### Grouping Constructs
 
+There are three different groups that are in this Email Regex. The first group is ([a-z0-9_\.-]+) which is for the users name. Then it's followed by the @
+symbol which is where group two comes in ([\da-z\.-]+) for what domain they are using. The final group is ([a-z\.]{2,6}) and thats for top level domains
+like .com or .org.
+
 ### Bracket Expressions
 
 ### Character Classes
