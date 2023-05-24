@@ -33,13 +33,20 @@ The {2, 6} is that [a-z\.] can only between 2-6 characters long for that last pa
 
 ### Grouping Constructs
 
-There are three different groups that are in this Email Regex. The first group is ([a-z0-9_\.-]+) which is for the users name. Then it's followed by the @
+There are three different groups that are in this email regex. The first group is ([a-z0-9_\.-]+) which is for the users name. Then it's followed by the @
 symbol which is where group two comes in ([\da-z\.-]+) for what domain they are using. The final group is ([a-z\.]{2,6}) and thats for top level domains
 like .com or .org.
 
 ### Bracket Expressions
 
+Just like how there are three groups in the email regex, there are three bracket expressions too. They are expressions that are telling us to match what rules are given withing the brackets. 
+[a-z0-9_\.-] is matching lowercase alphabet letters a-z, numbers that are between 0-9, _ (underscores), . (periods), and - (hyphens).
+([\da-z\.-]+) is for matching that can use multiple digits or one, alphabet letters a-z, . (periods), and - (hyphens).
+[a-z\.] is matching for alphabet letters a-z.
+
 ### Character Classes
+
+
 
 ### The OR Operator
 
