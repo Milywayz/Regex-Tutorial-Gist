@@ -50,4 +50,5 @@ There is only one character class inside the email regex and it's /d inside ([\d
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Thanks for reading, you can find my profile here if you want to see more: https://github.com/Milywayz
+
