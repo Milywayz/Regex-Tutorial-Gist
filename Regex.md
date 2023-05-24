@@ -14,6 +14,7 @@ A matching an Email Regex code looks like this: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
+- [Sited Sites](#sited-sites)
 
 ## Regex Components
 
@@ -44,6 +45,12 @@ Just like how there are three groups in the email regex, there are three bracket
 ### Character Classes
 
 There is only one character class inside the email regex and it's /d inside ([\da-z\.-]+). /d matches one digit only that's in the domain.
+
+### Sited Sites
+
+I used two different websites for helping me learn more about the email regex and will link them down below:
+https://www.rexegg.com/regex-anchors.html
+https://www.keycdn.com/support/regex-cheat-sheet
 
 ## Author
 
