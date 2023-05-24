@@ -46,13 +46,7 @@ Just like how there are three groups in the email regex, there are three bracket
 
 ### Character Classes
 
-
-
-### The OR Operator
-
-### Flags
-
-### Character Escapes
+There is only one character class inside the email regex and it's /d inside ([\da-z\.-]+). /d matches one digit only that's in the domain.
 
 ## Author
 
