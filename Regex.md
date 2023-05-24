@@ -5,7 +5,7 @@ This gist will be all about better understanding what a Regex is and the purpose
 ## Summary
 
 I will be explaining a "Matching an Email" Regex, which will include a better understanding of each component of the Regex and what use you can have with it.
-Matching an Email Regex code looks like this: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+A matching an Email Regex code looks like this: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
@@ -22,7 +22,12 @@ Matching an Email Regex code looks like this: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.(
 
 ### Anchors
 
+An Anchor is not matching any characters together but inserting the characters into the Regex for it to become a string or for matching. 
+The Anchors for the email are ^ which is for starting the regex string. And the $ which ends the regex string of the email to match.
+
 ### Quantifiers
+
+
 
 ### Grouping Constructs
 
