@@ -48,8 +48,8 @@ There is only one character class inside the email regex and it's /d inside ([\d
 
 ### Sited Sites
 
-I used two different websites for helping me learn more about the email regex and will link them down below:
-https://www.rexegg.com/regex-anchors.html
+I used two different websites for helping me learn more about the email regex and will link them down below:<br>
+https://www.rexegg.com/regex-anchors.html<br>
 https://www.keycdn.com/support/regex-cheat-sheet
 
 ## Author
