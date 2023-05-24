@@ -27,7 +27,9 @@ The Anchors for the email are ^ which is for starting the regex string. And the 
 
 ### Quantifiers
 
-
+There are two quantifiers in the email regex code and they are the + and {2, 6}. The + is for matching the the code to the left of the symbol.
+So [a-z0-9_\.-]+ the + is making sure that it matches what's inside the square brackets [].
+The {2, 6} is that [a-z\.] can only between 2-6 characters long for that last part of the code line.
 
 ### Grouping Constructs
 
